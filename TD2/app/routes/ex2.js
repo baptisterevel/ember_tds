@@ -2,7 +2,7 @@ import Route from '@ember/routing/route';
 import EmberObject,{computed} from '@ember/object';
 
 let Services=EmberObject.extend({
-  services:[],
+  services:null,
   countActive:computed('services.@each.active',function(){
     let activeServices=this.get('services').filter(
       service=>service.active
@@ -16,7 +16,16 @@ let Services=EmberObject.extend({
         total += service.price;
     });
     return total;
+  }),
+  codePromo:null,
+  promos:null,
+  txReduction:computed('codePromo','promos',function(){
+    return this.get('promos')[this.get('codePromo')];
+  }),
+  montantTotal:computed('sumActive','codePromo',function(){
+    let tx=this.get('txReduction');
   })
+
 });
 
 export default Route.extend({
@@ -40,7 +49,12 @@ export default Route.extend({
           "price": 220,
           "active":false
         }
-        ]
-      });
+        ],
+    promos:{
+      "B22":0.05,
+      "AZ":0.01,
+      "UBOAT":0.02
+    }
+    });
   }
 });

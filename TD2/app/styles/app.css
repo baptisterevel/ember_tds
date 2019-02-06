@@ -1,0 +1,7 @@
+li{
+  cursor: pointer;
+}
+
+li.active{
+  background-color: #0e90d2;
+}
