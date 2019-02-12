@@ -1,0 +1,9 @@
+{{multi-select elements=model.dispoItems selectedIds=model.dispoItemsIds_}}
+<ul>
+  {{#each model.dispoItems_ as |elm|}}
+    <li>{{elm.title}}</li>
+  {{/each}}
+</ul>
+{{multi-select elements=model.includedItems}}
+
+{{outlet}}
