@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/app/templates/ex3.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -203,12 +203,12 @@
       <workItem from="1548847151348" duration="6902000" />
       <workItem from="1549456219182" duration="243000" />
       <workItem from="1549462517289" duration="7545000" />
-      <workItem from="1549981183894" duration="7642000" />
+      <workItem from="1549981183894" duration="9184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22332000" />
+    <option name="totallyTimeSpent" value="23874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -374,7 +374,7 @@
     <entry file="file://$PROJECT_DIR$/app/templates/ex3.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>

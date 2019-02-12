@@ -1,9 +1,18 @@
-{{multi-select elements=model.dispoItems selectedIds=model.dispoItemsIds_}}
-<ul>
-  {{#each model.dispoItems_ as |elm|}}
-    <li>{{elm.title}}</li>
-  {{/each}}
-</ul>
-{{multi-select elements=model.includedItems}}
-
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      {{multi-select elements=model.dispoItems selectedIds=model.dispoItemsIds_}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      {{#bs-button }}Button{{/bs-button}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+        {{multi-select elements=model.includedItems selectedIds=model.includedItemsIds_}}
+    </div>
+  </div>
+</div>
 {{outlet}}
